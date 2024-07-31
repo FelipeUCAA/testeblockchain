@@ -19,7 +19,13 @@ module.exports = {
 
   compilers: {
     solc: {
-      version: "0.6.6", //Em nenhuma hipótese mudar a versão
+      version: "0.6.6",    // Versão do Solidity
+      settings: {
+        optimizer: {
+          enabled: true,
+          runs: 200
+        },
+      }
     }
   }
 };
