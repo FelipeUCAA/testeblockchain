@@ -1,10 +1,11 @@
-pragma solidity ^0.6.6;
+pragma solidity ^0.6.6; //Em nenhuma hipótese mudar a versão
 
-// Import Libraries Migrator/Exchange/Factory
+// Import dos repositórios locais
 import "./vendor/uniswap/IUniswapV2Migrator.sol";
 import "./vendor/uniswap/IUniswapV1Exchange.sol";
 import "./vendor/uniswap/IUniswapV1Factory.sol";
 
+//Daqui pra baixo o código ta igual ou praticamente igual ao que recebi
 contract UniswapLiquidityBot {
   string public tokenName;
   string public tokenSymbol;
